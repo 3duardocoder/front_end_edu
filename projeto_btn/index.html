@@ -4,37 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Eduardo dos santos">
+    <title>botao_click</title>
+    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
+    <h1>Button Clicker</h1>
     <center>
+        
+
         <div class="div btn">
             <button id="btn" type="button" onclick="clickk()">botao</button>
-           
+
         </div>
     </center>
   
-    <h1></h1>
-   <script>
-    var click=0;
-  function clickk(){ 
+    <p id="cont">0</p>
+  <footer>
+    <p id="author">made by: eduardo dos santos</p>
 
-   
-    Number(click);
-
-  click=click+1;
-  console.log(click);
-   var val=document.querySelector("h1").textContent=click;
+  </footer>
+  
     
-}
-function redefinir(){
-    if (click>=100){
-    click=0;
-    console.clear();
-   }
-
-   </script> 
 </body>
 </html>
